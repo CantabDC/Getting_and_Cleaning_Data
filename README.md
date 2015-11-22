@@ -33,6 +33,6 @@ To create syntactically valid names, the script creates a fuction ("clean") that
 
 The script groups the data by subject and activity and then calculates the mean of each variable for each subject/activity pair.
 
-##8: Save the data in a text file
+##8. Save the data in a text file
 
 The script saves the new data set, consisting of means of the 66 mean and standard deviation measurements for each subject/activity pair, as "means.txt." To read the file into R, use the command: write.table("means.txt", header=TRUE)
